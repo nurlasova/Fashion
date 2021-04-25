@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FASHION</title>
+    <title>fashion</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./animate.css">
 </head>
 
 <body>
@@ -15,13 +16,13 @@
             <div class="header__wrapper">
                 <h1 class="header__logo">YOUR LOGO</h1>
                 <ul class="parent-list">
-                    <li class="list">Home </li>
-                    <li class="list">Shop </li>
-                    <li class="list">Lookbook</li>
-                    <li class="list">Features </li>
-                    <li class="list">Pages</li>
-                    <li class="list">Blog</li>
-                </ul>
+                    <li class="header__list"> <a href="#" class="header__link">Home</a> </li>
+                    <li class="header__list"> <a href="#" class="header__link">Shop</a> </li>
+                    <li class="header__list"> <a href="#" class="header__link">Lookbook</a></li>
+                    <li class="header__list"> <a href="#" class="header__link">Features </a> </li>
+                    <li class="header__list"> <a href="#" class="header__link">Pages </a> </li>
+                    <li class="header__list"> <a href="#" class="header__link">Blog </a> </li>
+                    </ul>
                 <ul class="header__icons">
                     <li class="header__icon">
                         <img src="./images/loupe.svg" alt="" class="header__svg">
@@ -40,13 +41,13 @@
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero_wrapper">
-                    <span class="hero_suptitle">NEW TREND</span>
-                    <h1 class="hero_title"> COLLUSION</h1>
-                    <p class="hero_description"> An exclusive selection of this season's trends.</p>
+                <div class="hero_wrapper wow fadeInRight" data-wow-duration="2s">
+                    <span class="hero_suptitle wow fadeInRight" data-wow-duration="2s">NEW TREND</span>
+                    <h1 class="hero_title wow fadeInRight" data-wow-duration="3s"> COLLUSION</h1>
+                    <p class="hero_description wow fadeInRight" data-wow-duration="3s"> An exclusive selection of this season's trends.</p>
                     <div class="row">
-                        <button class="hero_button">DISCOVER</button>
-                        <button class="hero_button">SHOP NOW</button>
+                        <button class="hero_button wow fadeInRight" data-wow-duration="3s">DISCOVER</button>
+                        <button class="hero_button wow fadeInRight" data-wow-duration="3s">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -71,13 +72,13 @@
         </section>
         <section class="women">
             <div class="container">
-                <h3 class="section_title">WOMEN’S FASHION</h3>
-                <p class="section_description"> Shop our new arrivals from established brands
+                <h3 class="section_title wow fadeInDown" data-wow-duration="2s">WOMEN’S FASHION</h3>
+                <p class="section_description wow fadeInDown" data-wow-duration="2s"> Shop our new arrivals from established brands
                 </p>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="section_item swiper-slide">
-                            <img src="./images/8.png" alt="section_img">
+                            <img class="section__img" src="./images/8.png" alt="section_img">
                             <span class="section_suptitle">IGURE</span>
                             <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                             </h5>
@@ -87,7 +88,7 @@
                             </div>
                         </div>
                         <div class="section_item swiper-slide">
-                            <img src="./images/9.png" alt="section_img">
+                            <img class="section__img" src="./images/9.png" alt="section_img">
                             <span class="section_suptitle">IGURE</span>
                             <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                             </h5>
@@ -97,7 +98,7 @@
                             </div>
                         </div>
                         <div class="section_item swiper-slide">
-                            <img src="./images/6.png" alt="section_img">
+                            <img class="section__img" src="./images/6.png" alt="section_img">
                             <span class="section_suptitle">IGURE</span>
                             <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                             </h5>
@@ -107,7 +108,7 @@
                             </div>
                         </div>
                         <div class="section_item swiper-slide">
-                            <img src="./images/7.png" alt="section_img">
+                            <img class="section__img" src="./images/7.png" alt="section_img">
                             <span class="section_suptitle">IGURE</span>
                             <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                             </h5>
@@ -127,13 +128,13 @@
         </section>
         <section class="men">
             <div class="container">
-                <h3 class="section_title">MEN’S FASHION</h3>
-                <p class="section_description"> Shop our new arrivals from established brands
+                <h3 class="section_title wow fadeInDown" data-wow-duration="2s">MEN’S FASHION</h3>
+                <p class="section_description wow fadeInDown" data-wow-duration="2s"> Shop our new arrivals from established brands
                 </p>
                 <div class="swiper-container"> 
                 <div class="swiper-wrapper">
                     <div class="section_item  swiper-slide">
-                        <img src="./images/13.png" alt="section_img">
+                        <img class="section__img" src="./images/13.png" alt="section_img">
                         <span class="section_suptitle">IGURE</span>
                         <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                         </h5>
@@ -143,7 +144,7 @@
                         </div>
                     </div>
                     <div class="section_item  swiper-slide">
-                        <img src="./images/11.png" alt="section_img">
+                        <img class="section__img" src="./images/11.png" alt="section_img">
                         <span class="section_suptitle">IGURE</span>
                         <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                         </h5>
@@ -153,7 +154,7 @@
                         </div>
                     </div>
                     <div class="section_item  swiper-slide">
-                        <img src="./images/10.png" alt="section_img">
+                        <img class="section__img" src="./images/10.png" alt="section_img">
                         <span class="section_suptitle">IGURE</span>
                         <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                         </h5>
@@ -163,7 +164,7 @@
                         </div>
                     </div>
                     <div class="section_item  swiper-slide">
-                        <img src="./images/12.png" alt="section_img">
+                        <img class="section__img" src="./images/12.png" alt="section_img">
                         <span class="section_suptitle">IGURE</span>
                         <h5 class="section_name"> GREEN MUSCLE FIT POLO SHIRT
                         </h5>
@@ -180,20 +181,20 @@
         </section>
         <section class="styles">
             <div class="container">
-                <h5 class="section_title"> AVONE STYLES</h5>
-                <p class="section_description"> Choose Your Favorite Color</p>
+                <h5 class="section_title wow fadeInDown" data-wow-duration="2s"> AVONE STYLES</h5>
+                <p class="section_description wow fadeInDown" data-wow-duration="2s"> Choose Your Favorite Color</p>
                 <div class="row">
-                    <div class="styles_left">
-                        <img src="./images/14.png" alt="">
+                    <div class="styles_left wow fadeInLeft" data-wow-duration="2s">
+                        <img src="./images/14.png" alt="women__dress">
                     </div>
-                    <div class="styles_right">
-                        <img src="./images/15.png" alt="">
+                    <div class="styles_right wow fadeInRight" data-wow-duration="2s">
+                        <img src="./images/15.png" alt="women__dress">
                         <div class="styles_bottom">
                             <h5 class="styles_text"> SHOW WOMEN’S DRESS
                                 <hr>
                             </h5>
-                            <div class="styles_img--small">
-                                <img src="./images/16.png" alt="">
+                            <div class="styles_img--small wow fadeInRight" data-wow-duration="3s">
+                                <img src="./images/16.png" alt="women__dress">
                             </div>
                         </div>
                     </div>
@@ -203,9 +204,9 @@
         <section class="section__collection">
             <div class="container">
                 <div class="collection">
-                    <span class="collection_suptitle">OWN THE DAY</span>
-                    <h2 class="collection_title">TACHEN 19</h2>
-                    <button class="collection_button">SHOP COLLECTION </button>
+                    <span class="collection_suptitle wow fadeInLeft" data-wow-duration="2s">OWN THE DAY</span>
+                    <h2 class="collection_title wow fadeInLeft" data-wow-duration="2s">TACHEN 19</h2>
+                    <button class="collection_button wow fadeInLeft" data-wow-duration="2s">SHOP COLLECTION </button>
                 </div>
             </div>
         </section>
@@ -291,28 +292,28 @@
                             <div class="footer__item">
                                 <p class="footer__name"> Shop</p>
                                 <ul class="menu">
-                                    <li class="menu__list">Shop</li>
-                                    <li class="menu__list">Сollection</li>
-                                    <li class="menu__list">Outlet</li>
-                                    <li class="menu__list">Lookbook</li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Shop</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Сollection</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Outlet</a></li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Lookbook</a> </li>
                                 </ul>
                             </div>
                             <div class="footer__item">
                                 <p class="footer__name"> HELP</p>
                                 <ul class="menu">
-                                    <li class="menu__list">FAQ</li>
-                                    <li class="menu__list">Privecy Policy</li>
-                                    <li class="menu__list">Tearms and conditions</li>
-                                    <li class="menu__list">Return and Exchanges</li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">FAQ</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Privecy Policy</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Tearms and conditions</a></li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Return and Exchanges</a> </li>
                                 </ul>
                             </div>
                             <div class="footer__item">
                                 <p class="footer__name"> ABOUT</p>
                                 <ul class="menu">
-                                    <li class="menu__list">Journal</li>
-                                    <li class="menu__list">Our Story</li>
-                                    <li class="menu__list">Contact</li>
-                                    <li class="menu__list">Store Location</li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Journal</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Our Story</a> </li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Contact</a></li>
+                                    <li class="menu__list"> <a href="#" class="menu__link">Store Location</a> </li>
                                 </ul>
                             </div>
                         </div>
@@ -326,6 +327,10 @@
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
+    <script src="./wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

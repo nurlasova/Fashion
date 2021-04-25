@@ -59,13 +59,18 @@ form {
   display: flex;
   list-style-type: none;
 }
-.list {
+.header__link {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
   text-transform: uppercase;
   margin-right: 25px;
+  text-decoration: none;
+  color: #22262a;
+}
+.header__link:hover{
+  border-bottom: 1px solid  #22262a ;
 }
 .hero {
   background: url("./images/1\ 1.jpg");
@@ -125,8 +130,14 @@ form {
   padding: 4px 30px;
   margin-right: 30px;
   text-transform: uppercase;
-  border: none;
+  border:1px solid #212A2F;
   outline: none;
+  transition: 0.9s;
+}
+.hero_button:hover {
+  background-color: #FFFFFF;
+  color: #212A2F;
+  border: 1px solid #212A2F;
 }
 .catalog {
   padding-top: 114px;
@@ -175,7 +186,7 @@ form {
   font-weight: 500;
   font-size: 18px;
   background-color: white;
-  border: none;
+  border:1px solid #212A2F;
   outline: none;
   position: absolute;
   bottom: 30px;
@@ -183,6 +194,14 @@ form {
   padding: 4px 24px;
   text-transform: uppercase;
   text-align: center;
+  transition: 0.9s;
+  border:1px solid #212A2F;
+  outline: none;
+}
+.catalog_button:hover {
+  background-color: #212A2F;
+  color: white;
+  border: 1px solid #212A2F;
 }
 .women {
   padding-top: 114px;
@@ -244,6 +263,13 @@ form {
 }
 .section_new_price {
   color: red;
+}
+.section__img{
+  transition: 0.5s;
+    
+}
+.section__img:hover{
+  transform: scale(1.1);
 }
 
 .men {
@@ -328,9 +354,16 @@ form {
   padding: 4px 30px;
   margin-right: 30px;
   text-transform: uppercase;
-  border: none;
+  border: 1px solid #212A2F;
   outline: none;
+  transition: 0.9s;
 }
+.collection_button:hover {
+  background-color: #ffffff;
+  color: #22262a;
+  border: 1px solid #22262a;
+}
+
 .footer__top {
   background-color: #f2f8fc;
   padding-top: 115px;
@@ -425,11 +458,18 @@ form {
 .menu {
   list-style-type: none;
 }
-.menu__list {
+.menu__list{
+  margin-bottom: 20px;
+} 
+.menu__link {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  margin-bottom: 20px;
+  text-decoration: none;
+  color:  #22262a; ;
+}
+.menu__link:hover{
+  border-bottom: 1px solid #22262a;
 }
 .footer__bottom {
   text-align: center;
